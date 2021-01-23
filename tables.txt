@@ -1,0 +1,10 @@
+CREATE TABLE `shop` (
+  `id` varchar(100) PRIMARY KEY,
+  `name` varchar(1000) default NULL,
+  `address` varchar(1000) default NULL  
+)
+create table users (name varchar(4000),contact varchar(4000),mail varchar(4000),address varchar(4000),userid varchar(4000) PRIMARY KEY,password varchar(4000),role varchar(4000));
+
+create table stocks (pid varchar(4000),sid varchar(4000),pname varchar(4000),ptype varchar(4000),mdate varchar(4000),edate varchar(4000),quantity varchar(4000),cost varchar(4000));
+
+create table orders(oid varchar(400),sid varchar(400),cid varchar(400),pid varchar(400),pname varchar(400),quantity varchar(400),cost varchar(400),total varchar(400));
